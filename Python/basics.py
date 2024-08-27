@@ -11,5 +11,4 @@ greeting = "Hello"
 full_name = "Venkat Reyaansh"
 is_student = True
 print(f"Age: {age}, Marks: {marks}, Greeting: {greeting}, Full Name: {full_name}, Is Student: {is_student}")
-
-type
+print(type(age))
