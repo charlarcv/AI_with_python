@@ -71,3 +71,36 @@ text = "Hello\nWorld"  # 'Hello' and 'World' on separate lines
 text = 'It\'s a beautiful day!'
 text = "She said, \"Hello!\""
 path = "C:\\Users\\Name"
+
+
+
+
+# Exercise for _strings
+name = "Alice"
+print(name[0])  # A
+print(name[-1])
+
+text = " Python Programming "
+print(text.upper())  # Python
+print(text.strip())  # Python Programming
+print(text.replace("Python", "Java"))  # Python Language
+
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+
+def is_palindrom(s):
+    return s == s[::-1]
+print(is_palindrom("radar"))  # True
+print(is_palindrom("hello"))  # False
+
+name = input("Enter your name: ")
+print(len(name.split()))
+print
+
+
+student_name = "John Doe"
+math_grade = 88
+science_grade = 92
+report = f"Student: {student_name}\nMath: {math_grade}\nScience: {science_grade}"
+print(report)
